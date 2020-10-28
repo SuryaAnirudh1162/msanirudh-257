@@ -1,0 +1,575 @@
+body{
+    margin: 0px auto;
+    width:100%;
+}
+
+
+/*For Header*/
+nav ul li{
+    list-style-type: none;
+    float:left;
+    padding-right: 57px;
+    font-size: 20px;
+}
+nav ul{
+    float:right;
+}
+nav{
+    width:100%;
+    height: 75px;
+    background-color: #086972;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #87dfd6;
+}
+nav ul li a:hover{
+    color : #fff;
+}
+
+section{
+    background-color: #ffffff;
+}
+
+
+/*For Home*/
+.home{
+    text-align: center;
+    font-size:25px;
+    color:#086972;
+    height: 100vh;
+    width: 100%;
+}
+.home img{
+    padding: 50px;
+    border-radius: 50%;
+}
+
+
+/*For About*/
+.about{
+    text-align: center;
+    font-size:25px;
+    color:#086972;
+    height: 100vh;
+}
+.about1{
+    width:100%;
+    float:left;
+    height: 87.5vh;
+    background-color: #fcf876;
+}
+.about1 p{
+    font-size: 25px;
+    font-style: italic;
+    color:#222831;
+    padding: 77px;
+    text-align: justify;
+}
+
+
+/*For info*/
+.nav ul li{
+    list-style-type: none;
+    float:left;
+    padding-right: 50px;
+    font-size: 20px;
+}
+.nav ul{
+    float:right;
+}
+.nav{
+    width:100%;
+    height: 60px;
+    background-color: #ffffff;
+    position:fixed;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #5e6f64;
+}
+.nav ul li a:hover{
+    color : #363636;
+    padding: 5px;
+    border: 2px solid #3f4441;
+    border-radius: 10px;
+}
+
+
+/*For Education*/
+.education{
+    width:100%;
+    height:100vh;
+    margin-bottom: 25px;
+}
+.education .edu-inner{
+    padding: 50px;
+    text-align: center;
+}
+.education .edu-inner h1{
+    font-size:40px;
+    color: #838383;
+}
+.education .edu-inner h2{
+    color:#01a9b4;
+}
+.education .edu-inner p{
+    font-size: 20px;
+    color: #336d88;
+}
+.education .edu-inner div{
+    width:33%;
+    float:left;
+    padding: 1px;
+}
+
+
+/*For Skills*/
+.skills{
+    width:100%;
+    height:100vh;
+    margin-bottom: 25px;
+    background-color: #fbd46d;
+}
+.skills .skills-inner{
+    padding : 75px;
+}
+.skills .skills-inner h1{
+    text-align: center;
+    font-size: 42px;
+    color:#222831;
+}
+.skills .skills-inner div{
+    float:left;
+    width:33%;
+}
+.skills .skills-inner div ul{
+    padding: 50px;
+    font-size:17px;
+    margin-left : 15px;
+    background-color: #ffa931;
+}
+
+
+/*For Internships*/
+.internships{
+    width:100%;
+    height:100vh;
+    margin-bottom: 25px;
+    background-color: #ffd3e1;
+}
+.internships .intern-inner{
+    padding: 50px;
+}
+.internships .intern-inner h1{
+    text-align: center;
+    font-size: 50px;
+    color : #6a097d;
+}
+.internships .intern-inner div{
+    padding: 20px;
+}
+
+
+/*For achievements*/
+.achievements{
+    width:100%;
+    height : 100vh;
+    margin-bottom: 25px;
+    background-color: #99f3bd;
+}
+.achievements .achievements-inner{
+    padding: 50px;
+}
+.achievements .achievements-inner h1{
+    text-align: center;
+    font-size: 50px; 
+    color: #056674;
+}
+.achievements .achievements-inner div{
+    padding: 25px;
+}
+.achievements .achievements-inner div ul{
+    font-size: 20px;
+}
+.achievements .achievements-inner div li{
+    text-align: left;
+    padding: 20px;
+}
+
+
+/*For Projects*/
+.projects{
+    width:100%;
+    height:100vh;
+    margin-bottom: 25px;
+}
+.projects .projects-inner{
+    padding: 50px;
+}
+.projects .projects-inner h1{
+    font-size: 40px;
+    text-align: center;
+    color: #41444b;
+}
+
+
+/* For Projects */
+.customers1 {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px;
+}
+
+.customers1 td,th {
+  border: 1px solid #f6f4e6;
+  padding: 8px;
+}
+.customers1 td a{
+    text-decoration: none;
+}
+.customers1 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #fddb3a;
+  color: #52575d;
+}
+
+
+/*For Tw*/
+.tw{
+    width:100%;
+    height:100vh;
+    margin-bottom: 25px;
+}
+.tw .tw-inner{
+    padding: 50px;
+}
+.tw .tw-inner h1{
+    font-size: 40px;
+    text-align: center;
+    color: #fca652;
+}
+
+
+/*For Tw table*/
+.customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px;
+}
+
+.customers td,th {
+  border: 1px solid #fca652;
+  padding: 8px;
+}
+.customers td a{
+    text-decoration: none;
+}
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ffd57e;
+  color: #ac4b1c;
+}
+
+
+/*For Hobbies hover*/
+.container {
+    position:relative;
+    float:left;
+    width:50%;
+    background-color: #333456;
+    height: 50vh;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 15%;
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #595b83;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.text {
+  color: #f4abc4;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/*For Hobbies*/
+.hobbies{
+    width:100%;
+    height: 100vh;
+    background-color: #060930;
+}
+.hobbies .container p{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10%;
+    color: #060930;
+}
+.hobbies .container .overlay .text ul{
+    list-style-type: none;
+}
+
+
+/*For Contact*/
+.contact{
+    width: 100%;
+    text-align: center;
+    font-size:25px;
+    height: 100vh;
+}
+.contact .photo{
+    width: 40%;
+    float: left;
+    margin: 50px;
+}
+.contact .photo img{
+    border-radius: 20%;
+}
+.contact .details{
+    width: 30%;
+    margin: 50px;
+    float: left;
+    
+}
+.contact .details .d1{
+    font-family : Snell Roundhand, cursive;
+    font-size: 25px;
+    height: 50%;
+    color : #790c5a;
+}
+.contact .details .d2{
+    height:50%;
+    color : #cc0e74;
+}
+.contact .details .d2 div{
+    padding: 10px;
+}
+
+
+/*responsive web designing*/
+@media (min-width:320px) and (max-width:767px){
+    nav{
+        width:1000px;
+    }
+    .home{
+        width:1000px;
+        padding:0px;
+        margin-top: 0px;
+        height: 100vh;
+    }
+    .about{
+        width:1000px;
+        height:200vh;
+    }
+    .about1{
+        background-color: aqua;
+        height: 500vh;
+    }
+    .about1 p{
+        font-size: 40px;
+    }
+    .nav{
+        width: 1000px;
+        height: 75px;
+    }
+    .nav ul li{
+        padding: 15px;
+    }
+    .education{
+        width:1000px;
+        height: 275vh;
+    }
+    .education .edu-inner{
+        padding: 50px;
+    }
+    .skills{
+        width:1000px;
+        height: 200vh;
+    }
+    .skills .skills-inner{
+        padding:25px;
+    }
+    .internships{
+        width: 1000px;
+        height: 270vh;
+    }
+    .projects{
+        width: 1000px;
+        height: 270vh;
+    }
+    .tw{
+        width: 1000px;
+        height:270vh;
+    }
+    .hobbies{
+        width:1000px;
+        height: 225vh;
+    }
+    .achievements{
+        width: 1000px;
+        height: 250vh;
+    }
+    .achievements .achievements-inner{
+        padding:10px;
+    }
+    .container{
+        height: 120vh;
+    }
+    .contact{
+        width:1000px;
+        height: 70vh;
+    }
+}
+@media (min-width:768px) and (max-width:1023px){
+    .home{
+        height: 250vh;
+    }
+    .about1{
+        height:250vh;
+    }
+    .about1 p{
+        padding: 40px;
+    }
+    .education{
+        width:200%;
+        height: 255vh;
+    }
+    .skills{
+        width:200%;
+        height: 255vh;
+    }
+    .internships{
+        width:200%;
+        height: 255vh;
+    }
+    .projects{
+        width:200%;
+        height: 255vh;
+    }
+    .tw{
+        width:200%;
+        height: 255vh;
+    }
+    .achievements{
+        width:200%;
+        height: 255vh;
+    }
+    .achievements .achievements-inner{
+        padding: 20px;
+    }
+    .hobbies{
+        width:200%;
+        height: 200vh;
+    }
+    .container{
+        margin-top: 50vh;
+        height : 120vh;
+    }
+    .contact{
+        width:900px;
+    }
+}
+@media (min-width:1024px) and (max-width:1439px){
+    .about1{
+        height: 600px;
+    }
+    .education{
+        width:100%;
+        height: 600px;
+    }
+    .skills{
+        width:100%;
+        height: 600px;
+    }
+    .internships{
+        width:100%;
+        height: 600px;
+    }
+    .projects{
+        width:100%;
+        height: 600px;
+    }
+    .tw{
+        width:100%;
+        height: 600px;
+    }
+    .achievements{
+        width:100%;
+        height: 600px;
+    }
+    .achievements .achievements-inner{
+        padding: 20px;
+    }
+    .hobbies{
+        width:100%;
+        height: 400px;
+    }
+    .container{
+        margin-top: 50px;
+        height : 300px;
+    }
+}
+@media (min-width:1440px) and (max-width:2559px){
+    .about1{
+        height: 600px;
+    }
+    .education{
+        width:100%;
+        height: 600px;
+    }
+    .skills{
+        width:100%;
+        height: 600px;
+    }
+    .internships{
+        width:100%;
+        height: 600px;
+    }
+    .projects{
+        width:100%;
+        height: 600px;
+    }
+    .tw{
+        width:100%;
+        height: 600px;
+    }
+    .achievements{
+        width:100%;
+        height: 600px;
+    }
+    .achievements .achievements-inner{
+        padding: 20px;
+    }
+    .hobbies{
+        width:100%;
+        height: 400px;
+    }
+    .container{
+        margin-top: 50px;
+        height : 300px;
+    }
+}
